@@ -1,11 +1,10 @@
-const express = require('express')
-const app = express()
-const routes = require('./routes')
-const PORT = 6000
+const express = require('express');
 
-app.use(express.json())
-app.use('/', routes)
-
+const app = express();
+const PORT = 3000;
+const routes = require('./routes');
+// const app = express();
+app.use('/', routes);
 app.listen(PORT, () => {
-    console.log('Gateway has started on port ' + PORT)
-})
+  console.log('listening on port ' + PORT);
+});
