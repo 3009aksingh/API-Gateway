@@ -6,6 +6,10 @@ app.get("/fakeapi", (req, res, next) => {
   res.send("Hello from FAKE API server")
 })
 
+app.post("/bogusapi", (req, res, next) => {
+  res.send("Hello. from BOGUS API, trying POST request")
+})
+
 app.listen(PORT, () => {
   console.log("FAKE API running at port " + PORT);
 })
