@@ -2,25 +2,31 @@
   "services": {
     "testapi": {
       "apiName": "testapi",
+      "protocol": "http",
       "host": "http://localhost",
       "port": 3001,
       "url": "http://localhost:3001/"
     },
-    "registrytest": {
-      "apiName": "registrytest",
+    "AnkitaRegisters": {
+      "apiName": "AnkitaRegisters",
+      "protocol": "http",
       "host": "http://localhost",
-      "port": "3001",
-      "url": "http://localhost:3001/"
+      "port": 3002,
+      "url": "http://http://localhost:3002/"
     },
-    "undefined": {},
-    "My API": {
-      "apiName": "My API"
-    },
-    "AnkitRegisters": {
-      "apiName": "AnkitRegisters",
+    "ShubhamRegisters": {
+      "apiName": "ShubhamRegisters",
+      "protocol": "http",
       "host": "http://localhost",
-      "port": "3001",
-      "url": "http://localhost:3001/"
+      "port": 3002,
+      "url": "http://http://localhost:3002/"
+    },
+    "RavitejRegisters": {
+      "apiName": "RavitejRegisters",
+      "protocol": "http",
+      "host": "localhost",
+      "port": 3002,
+      "url": "http://localhost:3002/"
     }
   }
 }
